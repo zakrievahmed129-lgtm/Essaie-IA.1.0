@@ -116,11 +116,7 @@ async function generateAIResponse(input) {
   { keywords: ["je dois y aller", "je m’en vais"], response: "Pas de souci 😄 ! À bientôt." },
   { keywords: ["on se revoit", "à un de ces jours"], response: "Oui 👌 ! On se revoit bientôt." },
   { keywords: ["bonne continuation", "bonne route"], response: "Merci 🌟 ! Bonne continuation à toi également." },
-  { keywords: ["salut final", "dernier au revoir"], response: "Salut 👋 ! Passe un bon moment." }
-  // … ajouter d’autres entrées similaires pour atteindre ~60
- // ==============================
-  // HUMEUR / ÉMOTIONS (~100 entrées)
-  // ==============================
+  { keywords: ["salut final", "dernier au revoir"], response: "Salut 👋 ! Passe un bon moment." },
   { keywords: ["ça va", "comment tu vas", "comment ça va"], response: "Tout va très bien 😄 ! Merci de demander." },
   { keywords: ["bof", "pas trop", "ça va pas"], response: "Je comprends 😕… Courage, ça ira mieux." },
   { keywords: ["heureux", "content", "joyeux"], response: "Super 😁 ! La joie est toujours agréable." },
@@ -160,7 +156,7 @@ async function generateAIResponse(input) {
   { keywords: ["lecture", "livre", "roman"], response: "La lecture 📚 enrichit toujours l’esprit." },
   { keywords: ["théâtre", "pièce", "drame"], response: "Le théâtre 🎭 est captivant et passionnant." },
   { keywords: ["humour", "blague", "fun"], response: "L’humour 😂 rend la vie plus légère." },
-  { keywords: ["photographie", "photo", "shooting"], response: "La photographie 📸 capture des moments précieux." }
+  { keywords: ["photographie", "photo", "shooting"], response: "La photographie 📸 capture des moments précieux." },
   // … ajouter d’autres entrées similaires pour atteindre ~80
  // ==============================
   // TECHNOLOGIE / PROGRAMMATION (~100 entrées)
@@ -229,7 +225,7 @@ async function generateAIResponse(input) {
   { keywords: ["ville", "capitale", "tour"], response: "Explorer une ville 🏙️ est toujours enrichissant." },
   { keywords: ["cuisine locale", "gastronomie", "plat"], response: "Goûter la cuisine locale 🍲 est un vrai plaisir." },
   { keywords: ["aventure", "exploration", "road trip"], response: "Les aventures 🚗 créent des souvenirs inoubliables." },
-  { keywords: ["culture", "musée", "art"], response: "Les musées 🖼️ et l’art ouvrent de nouvelles perspectives." }
+  { keywords: ["culture", "musée", "art"], response: "Les musées 🖼️ et l’art ouvrent de nouvelles perspectives." },
   // … ajouter d’autres entrées similaires pour atteindre ~120
 // ==============================
   // SALUTATIONS supplémentaires
@@ -337,14 +333,11 @@ async function generateAIResponse(input) {
   { keywords: ["musée", "exposition"], response: "Les musées 🖼️ et expos enrichissent la culture." },
   { keywords: ["monument historique", "site ancien"], response: "Les monuments 🏰 racontent l’histoire." },
   { keywords: ["gastronomie locale", "plat traditionnel"], response: "Goûter les plats locaux 🍲 est un vrai plaisir." },
-  { keywords: ["culture locale", "tradition"], response: "Découvrir la culture 🌸 enrichit l’esprit." }
-{ keywords: ["quel temps fait-il", "météo aujourd'hui", "est-ce qu'il pleut"], response: "J’espère qu’il fait beau ☀️ ! Sinon, un parapluie est pratique 🌧️." },
-{ keywords: ["est-ce qu'il fait chaud", "température", "climat"], response: "Porte des vêtements confortables selon la météo 😄." },
-{ keywords: ["va-t-il neiger", "neige aujourd'hui"], response: "La neige ❄️ crée toujours une ambiance magique." },
+  { keywords: ["culture locale", "tradition"], response: "Découvrir la culture 🌸 enrichit l’esprit." },
 
-{ keywords: ["comment rester en forme", "sport santé"], response: "Bouger un peu chaque jour 🏃‍♀️ et bien manger 🥗 est très bénéfique." },
-{ keywords: ["mal de tête", "maux de tête"], response: "Boire de l’eau 💧 et se reposer aide souvent à se sentir mieux." },
-{ keywords: ["sommeil", "dormir mieux"], response: "Une routine régulière 🌙 et un environnement calme favorisent un bon sommeil." },
+  { keywords: ["comment rester en forme", "sport santé"], response: "Bouger un peu chaque jour 🏃‍♀️ et bien manger 🥗 est très bénéfique." },
+  { keywords: ["mal de tête", "maux de tête"], response: "Boire de l’eau 💧 et se reposer aide souvent à se sentir mieux." },
+  { keywords: ["sommeil", "dormir mieux"], response: "Une routine régulière 🌙 et un environnement calme favorisent un bon sommeil." },
 
 { keywords: ["quelle heure est-il", "heure actuelle"], response: "Chaque moment est précieux ⏰, profite-en au maximum." },
 { keywords: ["quelle date", "jour aujourd'hui"], response: "Aujourd’hui est un nouveau jour plein de possibilités 📅." },
